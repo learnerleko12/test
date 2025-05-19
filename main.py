@@ -202,8 +202,6 @@ scientist_data = {
     }
 }
 
-# ✅ MBTI 선택
-selected_mbti = st.selectbox("👉 너의 MBTI를 선택해보세요", list(scientist_data.keys()))
 
 
 
