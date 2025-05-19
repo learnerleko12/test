@@ -3,6 +3,14 @@ import streamlit as st
 # ✅ Streamlit 페이지 설정
 st.set_page_config(page_title="MBTI 과학자 친구 & 진로 추천", page_icon="🧑‍🔬", layout="centered")
 
+# ✅ 타이틀
+st.markdown("""
+<div style="text-align:center;">
+    <h1 style='color:#4B8BBE;'>🧠 MBTI로 과학자 친구를 만나고<br>이공계 진로도 추천받아보자!</h1>
+    <p style='color:gray;'>성격에 딱 맞는 과학자 캐릭터와 진로를 찾아보아요 👇</p>
+</div>
+""", unsafe_allow_html=True)
+
 #st.title("🧑‍🔬 MBTI로 과학자 친구를 만나고 이공계 진로도 알아보자!")
 #st.subheader("너의 성격 유형에 따라 잘 맞는 과학자와 진로를 추천해줄게 😊")
 
