@@ -259,5 +259,5 @@ if selected_mbti and selected_mbti in scientist_data:
         with st.expander(f"🔍 {job} 자세히 보기"):
             st.write(data["job_details"].get(job, "상세 정보가 준비 중이에요."))
 
-    st.success("🎉 너와 잘 어울리는 과학자 친구와 진로를 찾았어요!")
+    st.success("🎉 나와 잘 어울리는 과학자 친구와 진로를 찾았어요!")
 
