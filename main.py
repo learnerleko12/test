@@ -1,7 +1,7 @@
 import streamlit as st
 
 # ✅ Streamlit 페이지 설정
-st.set_page_config(page_title="MBTI 과학자 친구 & 진로 추천", page_icon="🧑‍🔬")
+st.set_page_config(page_title="MBTI 과학자 친구 & 진로 추천", page_icon="🧑‍🔬", layout="centered")
 
 st.title("🧑‍🔬 MBTI로 과학자 친구를 만나고 이공계 진로도 알아보자!")
 st.subheader("너의 성격 유형에 따라 잘 맞는 과학자와 진로를 추천해줄게 😊")
